@@ -1,0 +1,16 @@
+environment:
+  windows:
+    path:
+      - 'c:\node'
+    userDefined:
+      -
+        key: 'te'
+        value: 'et'
+directory:
+  -
+    source: 'ete'
+    target: 'er'
+  -
+    source: 'er'
+    target: 'er'
+    
