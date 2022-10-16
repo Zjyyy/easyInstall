@@ -8,9 +8,8 @@ environment:
         value: 'et'
 directory:
   -
-    source: 'ete'
-    target: 'er'
-  -
-    source: 'er'
-    target: 'er'
+    isDirectory: false
+    fileName: 'test.txt'
+    source: './SetupFileDirectory/test.txt'
+    target: './'
     

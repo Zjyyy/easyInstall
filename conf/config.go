@@ -1,4 +1,4 @@
-package main
+package conf
 
 import (
 	"github.com/go-ini/ini"
@@ -63,8 +63,10 @@ type EnvironmentConf struct {
 	}
 }
 type DirectoryConf struct {
-	Source string `yaml:"source"`
-	Target string `yaml:"target"`
+	IsDirectory bool   `yaml:"isDirectory"`
+	FileName    string `yaml:"fileName"`
+	Source      string `yaml:"source"`
+	Target      string `yaml:"target"`
 }
 type UserConfig struct {
 	Environment EnvironmentConf `yaml:"environment"`
