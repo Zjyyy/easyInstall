@@ -11,5 +11,10 @@ directory:
     isDirectory: false
     fileName: 'test.txt'
     source: './SetupFileDirectory/test.txt'
-    target: './'
+    target: './TargetTest'
+  -
+    isDirectory: true
+    fileName: ''
+    source: './SetupFileDirectory/TestDir'
+    target: './TargetTest'
     
